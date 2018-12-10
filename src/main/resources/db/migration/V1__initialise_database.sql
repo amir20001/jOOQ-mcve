@@ -1,3 +1,5 @@
+SET FOREIGN_KEY_CHECKS = 0;
+
 CREATE TABLE `foo` (
   `id`     BIGINT(20) NOT NULL,
   `bar_id` BIGINT(20) NOT NULL,
@@ -12,3 +14,5 @@ CREATE TABLE `bar` (
 
   PRIMARY KEY (`id`)
 );
+
+SET FOREIGN_KEY_CHECKS = 0;
