@@ -1,5 +1,3 @@
- CREATE TABLE mcve.test (
-  id    INT NOT NULL AUTO_INCREMENT,
-  value INT,
-  CONSTRAINT pk_test PRIMARY KEY (id)
-);
+ALTER DATABASE test
+DEFAULT CHARACTER SET utf8
+DEFAULT COLLATE utf8_general_ci;
